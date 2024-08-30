@@ -1,6 +1,6 @@
 > Closed Source is Antithetical to Bitcoin
 
-# Presenting: The supraeHex
+# Presenting: The supraHex
 supraHex is a follow on to the [bitaxe](https://github.com/skot/bitaxe) that incorporates six BM1368 ASICs from the Antminer S21
 
 ![supraHex render](doc/bitaxeHex-701-render.png)

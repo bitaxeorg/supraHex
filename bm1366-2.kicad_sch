@@ -6714,7 +6714,7 @@
 		)
 		(uuid "52838df7-ef2c-4ee0-b735-3731eb4afb37")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 97.79 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6835,7 +6835,7 @@
 		)
 		(uuid "7c2a4a6c-6dc4-4c65-9a17-a6a12391b562")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 217.17 151.13 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6890,7 +6890,7 @@
 		)
 		(uuid "8b9321e0-e1a7-4663-9ef6-24089c54c429")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 186.69 148.59 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6912,7 +6912,7 @@
 		)
 		(uuid "90e71b4e-a31a-4fb3-8c33-e0b4b63e3aaa")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 228.6 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6945,7 +6945,7 @@
 		)
 		(uuid "a4dad4fb-e458-4282-883d-4c95f62bb02a")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 53.34 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7044,7 +7044,7 @@
 		)
 		(uuid "d63fd16c-eee9-48f9-9262-e3a866898636")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 181.61 111.76 0)
 		(fields_autoplaced yes)
 		(effects
@@ -13734,7 +13734,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "110k"
+		(property "Value" "115k"
 			(at 71.12 189.23 0)
 			(effects
 				(font
@@ -13770,7 +13770,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-110KLRTR-ND"
+		(property "DK" "YAG2956CT-ND"
 			(at 77.47 187.96 0)
 			(effects
 				(font
@@ -13779,7 +13779,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402FR-07110KL"
+		(property "PARTNO" "RC0402FR-07115KL"
 			(at 77.47 187.96 0)
 			(effects
 				(font
@@ -14374,7 +14374,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "402k"
 			(at 83.82 184.15 90)
 			(effects
 				(font
@@ -14409,7 +14409,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-220KLRTR-ND"
+		(property "DK" "YAG3151CT-ND"
 			(at 83.82 181.61 0)
 			(effects
 				(font
@@ -14418,7 +14418,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402FR-07220KL"
+		(property "PARTNO" "RC0402FR-07402KL"
 			(at 83.82 181.61 0)
 			(effects
 				(font

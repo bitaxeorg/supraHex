@@ -2656,7 +2656,7 @@
 		)
 		(uuid "8b569007-ea9e-47f9-9da0-f28499c7eae3")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 86.995 36.195 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5363,7 +5363,7 @@
 			)
 			(uuid "31e2def0-a6e4-410f-9883-8adb3501ac6b")
 		)
-		(pin "1V2_IO" output
+		(pin "1V8_IO" output
 			(at 79.375 36.195 0)
 			(effects
 				(font

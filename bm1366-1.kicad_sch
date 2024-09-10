@@ -4441,7 +4441,7 @@
 		)
 		(uuid "19725e97-56ab-438a-b5f7-da209b95885b")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 205.74 151.13 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4562,7 +4562,7 @@
 		)
 		(uuid "902450b0-0195-41e2-99fb-c4ed30ffc965")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 92.71 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4573,7 +4573,7 @@
 		)
 		(uuid "930e4620-6d17-40fc-9580-9224c812b445")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 231.14 153.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4628,7 +4628,7 @@
 		)
 		(uuid "b69ff465-596b-4ffb-8877-94f8564169d5")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 82.55 176.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4650,7 +4650,7 @@
 		)
 		(uuid "bda63444-9564-40f2-b4c1-9e85ea3f86e8")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 41.91 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4661,7 +4661,7 @@
 		)
 		(uuid "c75c7240-c9c9-45db-bdb3-dbc9f143dc85")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 177.8 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4694,7 +4694,7 @@
 		)
 		(uuid "fd60af1e-7107-474b-b516-22497c640ba4")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 222.25 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7276,7 +7276,7 @@
 				)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "402k"
 			(at 81.28 184.15 90)
 			(effects
 				(font
@@ -7311,7 +7311,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-220KLRTR-ND"
+		(property "DK" "YAG3151CT-ND"
 			(at 81.28 181.61 0)
 			(effects
 				(font
@@ -7320,7 +7320,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402FR-07220KL"
+		(property "PARTNO" "RC0402FR-07402KL"
 			(at 81.28 181.61 0)
 			(effects
 				(font
@@ -8538,7 +8538,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "110k"
+		(property "Value" "115k"
 			(at 68.58 190.5 0)
 			(effects
 				(font
@@ -8574,7 +8574,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "311-110KLRTR-ND"
+		(property "DK" "YAG2956CT-ND"
 			(at 74.93 189.23 0)
 			(effects
 				(font
@@ -8583,7 +8583,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "RC0402FR-07110KL"
+		(property "PARTNO" "RC0402FR-07115KL"
 			(at 74.93 189.23 0)
 			(effects
 				(font

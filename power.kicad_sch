@@ -1104,6 +1104,107 @@
 				)
 			)
 		)
+		(symbol "bitaxe:824045812"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "824045812_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy -2.54 0) (xy 2.54 0) (xy -1.27 0)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "824045812_1_1"
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "I/O"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bitaxe:LMR54410"
 			(pin_names
 				(offset 0.254)
@@ -2611,16 +2712,34 @@
 		(uuid "001fe870-5088-4a58-90e8-327f88a7213b")
 	)
 	(junction
+		(at 27.94 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02964455-acb1-4a31-8a9c-984c419ce0a2")
+	)
+	(junction
 		(at 203.2 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02ef7a52-5a6e-4e48-996b-db249f53747f")
 	)
 	(junction
+		(at 27.94 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "036a4d01-f652-4dfd-b8a7-b27766eb2597")
+	)
+	(junction
 		(at 173.99 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "07011c95-86be-48c5-b2ab-a4ad8f72b250")
+	)
+	(junction
+		(at 48.26 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08fcb188-66fb-494d-8d9f-fc7c410d1e48")
 	)
 	(junction
 		(at 48.26 92.71)
@@ -2731,12 +2850,6 @@
 		(uuid "3f9009f7-2bc6-4b04-beb0-b98a4faeea07")
 	)
 	(junction
-		(at 34.29 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4143f2f1-6842-40aa-b55d-f26ac1cf4695")
-	)
-	(junction
 		(at 124.46 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2771,12 +2884,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cc30b8b-f621-47a2-b27b-666c6e785e70")
-	)
-	(junction
-		(at 46.99 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e6917c4-5cb5-430f-b248-dabc3878eb8a")
 	)
 	(junction
 		(at 57.15 20.32)
@@ -2911,6 +3018,12 @@
 		(uuid "944e8de5-8425-49a7-bb0e-c604fda1a2e7")
 	)
 	(junction
+		(at 48.26 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e37a6e1-9459-420d-bcc1-8d76e64e8626")
+	)
+	(junction
 		(at 162.56 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2921,6 +3034,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fe88bac-ab0b-4414-9388-c82749a2a613")
+	)
+	(junction
+		(at 40.64 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7eb05b5-def1-460d-ab20-c0c746548ae5")
 	)
 	(junction
 		(at 124.46 50.8)
@@ -2941,10 +3060,10 @@
 		(uuid "ada46947-1870-4076-9a2c-9abbf568a3ea")
 	)
 	(junction
-		(at 46.99 20.32)
+		(at 40.64 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b1ff2233-a325-4fe7-8a88-525edeff1de6")
+		(uuid "b0ac2125-ec82-4972-a668-bd9b69d20f72")
 	)
 	(junction
 		(at 209.55 93.98)
@@ -2999,12 +3118,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cedb140a-e283-4773-9021-6fb5180fdcad")
-	)
-	(junction
-		(at 34.29 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d749b40a-686c-4204-b2fb-ed753c84bb2b")
 	)
 	(junction
 		(at 101.6 146.05)
@@ -3252,7 +3365,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 20.32) (xy 46.99 20.32)
+			(xy 57.15 20.32) (xy 48.26 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3279,6 +3392,16 @@
 			(type default)
 		)
 		(uuid "10e1345a-976f-45f2-a04d-b0861ffff9d8")
+	)
+	(wire
+		(pts
+			(xy 40.64 20.32) (xy 48.26 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e85539-3e96-4a9e-9b7b-f853e3eedbcd")
 	)
 	(wire
 		(pts
@@ -3329,6 +3452,16 @@
 			(type default)
 		)
 		(uuid "15f8b442-ead9-4b00-84a0-65c59fdfcc5a")
+	)
+	(wire
+		(pts
+			(xy 40.64 31.75) (xy 40.64 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172f2dea-ee2c-45a5-a7e0-b07cb85d5ea2")
 	)
 	(wire
 		(pts
@@ -3432,7 +3565,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 31.75) (xy 46.99 36.83)
+			(xy 48.26 31.75) (xy 48.26 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3449,6 +3582,16 @@
 			(type default)
 		)
 		(uuid "1fc6aca2-d864-4452-8068-3fa39d56350f")
+	)
+	(wire
+		(pts
+			(xy 27.94 36.83) (xy 40.64 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20acb4af-22d7-4411-9a39-0f6fd3fba532")
 	)
 	(wire
 		(pts
@@ -3499,6 +3642,16 @@
 			(type default)
 		)
 		(uuid "25f79cdd-9d3e-4cb2-8b7e-d8f38c040a9f")
+	)
+	(wire
+		(pts
+			(xy 27.94 20.32) (xy 40.64 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b01014-3ea1-458f-b1d2-f55f362337e0")
 	)
 	(wire
 		(pts
@@ -3712,6 +3865,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 36.83) (xy 57.15 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5dcb8a-93f1-4332-867d-1acdca1105d3")
+	)
+	(wire
+		(pts
 			(xy 138.43 139.7) (xy 135.89 139.7)
 		)
 		(stroke
@@ -3789,16 +3952,6 @@
 			(type default)
 		)
 		(uuid "3f3ba01d-da3f-4873-abf3-3fef0ce310d7")
-	)
-	(wire
-		(pts
-			(xy 46.99 20.32) (xy 34.29 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40d6f316-d846-4020-b9f7-95f0cccabfe4")
 	)
 	(wire
 		(pts
@@ -3982,7 +4135,17 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 36.83) (xy 34.29 36.83)
+			(xy 40.64 20.32) (xy 40.64 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa0ced3-e9e1-4291-814f-98e3651a31e4")
+	)
+	(wire
+		(pts
+			(xy 22.86 36.83) (xy 27.94 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4309,16 +4472,6 @@
 			(type default)
 		)
 		(uuid "6639f5cd-5c46-4870-8bd2-68fd8742a9c4")
-	)
-	(wire
-		(pts
-			(xy 46.99 36.83) (xy 57.15 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66c76cf2-9a17-4ab2-b504-d7cfd5b95644")
 	)
 	(wire
 		(pts
@@ -4679,16 +4832,6 @@
 			(type default)
 		)
 		(uuid "905e8db3-44cb-454f-a3bb-766579149334")
-	)
-	(wire
-		(pts
-			(xy 34.29 36.83) (xy 46.99 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "914fab5e-da4d-4420-90fe-17dc0b0ce3c2")
 	)
 	(wire
 		(pts
@@ -5092,7 +5235,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 31.75) (xy 34.29 36.83)
+			(xy 27.94 31.75) (xy 27.94 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5112,7 +5255,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 20.32) (xy 46.99 24.13)
+			(xy 48.26 20.32) (xy 48.26 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5212,7 +5355,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 24.13) (xy 34.29 20.32)
+			(xy 27.94 24.13) (xy 27.94 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5272,7 +5415,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 20.32) (xy 34.29 20.32)
+			(xy 21.59 20.32) (xy 27.94 20.32)
 		)
 		(stroke
 			(width 0)
@@ -5669,6 +5812,16 @@
 			(type default)
 		)
 		(uuid "efe84f96-0667-43d3-9268-f73909b66cbc")
+	)
+	(wire
+		(pts
+			(xy 40.64 36.83) (xy 48.26 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0654764-2de7-4767-81a8-e5426549e47f")
 	)
 	(wire
 		(pts
@@ -6195,7 +6348,7 @@
 		)
 		(uuid "3bf5f8b6-f9a9-46e6-b6a6-68fdb8d4e7d8")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 196.85 146.05 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8053,7 +8206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240802/A85BC169CD94B58DB0326F7C46D76917.pdf"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/microchip-technology/MIC5504-1-8YM5-TR/5209404"
 			(at 177.8 147.32 0)
 			(effects
 				(font
@@ -8071,7 +8224,7 @@
 				(hide yes)
 			)
 		)
-		(property "DK" "C30197547"
+		(property "DK" "576-4879-1-ND"
 			(at 185.42 147.32 0)
 			(effects
 				(font
@@ -8080,7 +8233,7 @@
 				(hide yes)
 			)
 		)
-		(property "PARTNO" "MIC5504-1.2YM5-TR-MS"
+		(property "PARTNO" "MIC5504-1.8YM5-TR"
 			(at 185.42 147.32 0)
 			(effects
 				(font
@@ -9286,7 +9439,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 46.99 27.94 0)
+		(at 48.26 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9295,7 +9448,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac686bec-18d2-419c-8444-abe1a0cd5e41")
 		(property "Reference" "C4"
-			(at 50.165 26.67 0)
+			(at 51.435 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +9457,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 50.165 29.21 0)
+			(at 51.435 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9313,7 +9466,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 47.9552 31.75 0)
+			(at 49.2252 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9322,7 +9475,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 27.94 0)
+			(at 48.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,7 +9484,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 27.94 0)
+			(at 48.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,7 +9493,7 @@
 			)
 		)
 		(property "DK" "490-3889-1-ND"
-			(at 46.99 27.94 0)
+			(at 48.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,7 +9502,7 @@
 			)
 		)
 		(property "PARTNO" "GRM32ER61E226KE15L"
-			(at 46.99 27.94 0)
+			(at 48.26 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10495,7 +10648,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 34.29 27.94 0)
+		(at 27.94 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10503,7 +10656,7 @@
 		(dnp no)
 		(uuid "cab5fa22-49fc-42b4-ac54-3a214bb9d9c9")
 		(property "Reference" "C10"
-			(at 37.465 26.67 0)
+			(at 31.115 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10512,7 +10665,7 @@
 			)
 		)
 		(property "Value" "180uF"
-			(at 37.465 29.21 0)
+			(at 31.115 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10521,7 +10674,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.9"
-			(at 35.2552 31.75 0)
+			(at 28.9052 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,7 +10683,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/AAB8000/AAB8000C177.pdf"
-			(at 34.29 27.94 0)
+			(at 27.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10539,7 +10692,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 27.94 0)
+			(at 27.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10548,7 +10701,7 @@
 			)
 		)
 		(property "DK" "P16479CT-ND"
-			(at 34.29 27.94 0)
+			(at 27.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10557,7 +10710,7 @@
 			)
 		)
 		(property "PARTNO" "16SVPF180M"
-			(at 34.29 27.94 0)
+			(at 27.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10566,7 +10719,7 @@
 			)
 		)
 		(property "HEIGHT" "5.9mm"
-			(at 34.29 27.94 0)
+			(at 27.94 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11490,6 +11643,76 @@
 			(project "bitaxeHex"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bitaxe:824045812")
+		(at 40.64 27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eadefbf0-e08f-4dbc-9570-abfd535b363b")
+		(property "Reference" "D1"
+			(at 43.18 27.3049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "824045812"
+			(at 43.18 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "bitaxe:824045812"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/824045812.pdf"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd7c620a-6430-4a99-a6f9-08d8d73c6301")
+		)
+		(pin "2"
+			(uuid "02eee369-fa4a-4997-9a10-d203d1e4f109")
+		)
+		(instances
+			(project "bitaxeHex"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/8ec0a9c6-2b78-44ef-a83d-9047d2828409"
+					(reference "D1")
 					(unit 1)
 				)
 			)

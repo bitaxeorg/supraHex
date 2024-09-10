@@ -5086,7 +5086,7 @@
 		)
 		(uuid "1cc57ac8-1b3c-4f58-ae69-4c04884634c7")
 	)
-	(label "1V2"
+	(label "1V8"
 		(at 60.96 157.48 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5548,7 +5548,7 @@
 			)
 		)
 	)
-	(hierarchical_label "1V2_IO"
+	(hierarchical_label "1V8_IO"
 		(shape input)
 		(at 24.13 157.48 180)
 		(fields_autoplaced yes)

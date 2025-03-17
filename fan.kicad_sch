@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "e3011397-6e70-47ae-93ca-7e99c3d9ef05")
 	(paper "A")
 	(title_block
@@ -12,7 +12,9 @@
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -79,19 +81,19 @@
 			)
 			(symbol "Conn_01x04_1_1"
 				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -112,8 +114,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -123,14 +125,14 @@
 					)
 				)
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -206,9 +208,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -281,7 +286,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -293,7 +298,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -342,9 +347,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -500,9 +508,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -573,18 +584,6 @@
 			(symbol "R_US_0_1"
 				(polyline
 					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 2.286) (xy 0 2.54)
 					)
 					(stroke
@@ -597,7 +596,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
 					)
 					(stroke
 						(width 0)
@@ -621,7 +620,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -670,6 +681,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TMP1075NDRLR_1"
 			(pin_names
@@ -789,35 +801,17 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 8.89 -5.08 180)
+				(pin bidirectional line
+					(at -8.89 -1.27 0)
 					(length 2.54)
-					(name "GND"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "ALERT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -861,17 +855,35 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -8.89 -1.27 0)
+				(pin output line
+					(at 8.89 -1.27 180)
 					(length 2.54)
-					(name "SDA"
+					(name "ALERT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 8.89 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -880,6 +892,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "bitaxe:EMC2302-2-AIZL-TR"
 			(pin_names
@@ -960,6 +973,24 @@
 				)
 			)
 			(symbol "EMC2302-2-AIZL-TR_0_1"
+				(pin power_in line
+					(at -11.43 5.08 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at -11.43 2.54 0)
 					(length 2.54)
@@ -971,24 +1002,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -11.43 -2.54 0)
-					(length 2.54)
-					(name "*ALERT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1014,17 +1027,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -11.43 5.08 0)
+				(pin output line
+					(at -11.43 -2.54 0)
 					(length 2.54)
-					(name "VDD"
+					(name "*ALERT"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1068,24 +1081,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "TACH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin output line
 					(at 15.24 2.54 180)
 					(length 2.54)
@@ -1097,6 +1092,24 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "TACH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1154,7 +1167,129 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "I2C Address: 0x2E"
+		(exclude_from_sim no)
+		(at 82.55 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11fff254-6802-4f82-b7ff-2e0afee1abf0")
+	)
+	(text "Temperature Sensors"
+		(exclude_from_sim no)
+		(at 67.31 86.36 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "2686812e-ac25-43d1-9c63-8548c50d91b9")
+	)
+	(text "I2C Address: 0x4A"
+		(exclude_from_sim no)
+		(at 78.74 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cf96689-e33f-431c-9848-b4ba540c0cc2")
+	)
+	(text "Fan Control"
+		(exclude_from_sim no)
+		(at 80.01 35.56 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "385e94ad-0293-408b-8fb7-2ad84e3d9d1a")
+	)
+	(text "Fan 1"
+		(exclude_from_sim no)
+		(at 246.38 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "47768319-92af-45e2-a420-468e3a283dae")
+	)
+	(text "Use 12V Fan"
+		(exclude_from_sim no)
+		(at 246.38 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8acb1129-6623-4468-a014-dc622d21776e")
+	)
+	(text "Use 12V Fan"
+		(exclude_from_sim no)
+		(at 246.38 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f2c1619-f17a-4116-abae-f248079fa4a3")
+	)
+	(text "This sets default fan speed to 100% ->"
+		(exclude_from_sim no)
+		(at 166.37 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e9b318e-2a32-4ad3-ab59-7bf2d7c2171b")
+	)
+	(text "Fan 2"
+		(exclude_from_sim no)
+		(at 246.38 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b157b309-4c90-4b09-869d-bd29ab9a8d0f")
+	)
+	(text "This sets default fan speed to 100% ->"
+		(exclude_from_sim no)
+		(at 166.37 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7c302e0-6a4a-4a07-a915-e942d598c2d8")
+	)
+	(text "I2C Address: 0x4B"
+		(exclude_from_sim no)
+		(at 78.74 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3045217-adcf-4334-878f-0fe19c042d5a")
 	)
 	(junction
 		(at 205.74 111.76)
@@ -2082,130 +2217,8 @@
 		)
 		(uuid "fbf11e8a-5b13-4565-b3c5-398161312a13")
 	)
-	(text "I2C Address: 0x2E"
-		(exclude_from_sim no)
-		(at 82.55 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "11fff254-6802-4f82-b7ff-2e0afee1abf0")
-	)
-	(text "Temperature Sensors"
-		(exclude_from_sim no)
-		(at 67.31 86.36 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "2686812e-ac25-43d1-9c63-8548c50d91b9")
-	)
-	(text "I2C Address: 0x4A"
-		(exclude_from_sim no)
-		(at 78.74 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2cf96689-e33f-431c-9848-b4ba540c0cc2")
-	)
-	(text "Fan Control"
-		(exclude_from_sim no)
-		(at 80.01 35.56 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "385e94ad-0293-408b-8fb7-2ad84e3d9d1a")
-	)
-	(text "Fan 1"
-		(exclude_from_sim no)
-		(at 246.38 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "47768319-92af-45e2-a420-468e3a283dae")
-	)
-	(text "Use 12V Fan"
-		(exclude_from_sim no)
-		(at 246.38 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8acb1129-6623-4468-a014-dc622d21776e")
-	)
-	(text "Use 12V Fan"
-		(exclude_from_sim no)
-		(at 246.38 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f2c1619-f17a-4116-abae-f248079fa4a3")
-	)
-	(text "This sets default fan speed to 100% ->"
-		(exclude_from_sim no)
-		(at 166.37 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e9b318e-2a32-4ad3-ab59-7bf2d7c2171b")
-	)
-	(text "Fan 2"
-		(exclude_from_sim no)
-		(at 246.38 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b157b309-4c90-4b09-869d-bd29ab9a8d0f")
-	)
-	(text "This sets default fan speed to 100% ->"
-		(exclude_from_sim no)
-		(at 166.37 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7c302e0-6a4a-4a07-a915-e942d598c2d8")
-	)
-	(text "I2C Address: 0x4B"
-		(exclude_from_sim no)
-		(at 78.74 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e3045217-adcf-4334-878f-0fe19c042d5a")
-	)
 	(label "GND"
 		(at 110.49 110.49 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2216,7 +2229,6 @@
 	)
 	(label "SCL"
 		(at 72.39 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2227,7 +2239,6 @@
 	)
 	(label "GND"
 		(at 72.39 57.15 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2238,7 +2249,6 @@
 	)
 	(label "FAN1_TACH"
 		(at 116.84 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2249,7 +2259,6 @@
 	)
 	(label "3V3"
 		(at 110.49 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2260,7 +2269,6 @@
 	)
 	(label "SDA"
 		(at 68.58 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2271,7 +2279,6 @@
 	)
 	(label "3V3"
 		(at 196.85 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2282,7 +2289,6 @@
 	)
 	(label "SCL"
 		(at 68.58 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2293,7 +2299,6 @@
 	)
 	(label "SDA"
 		(at 68.58 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2304,7 +2309,6 @@
 	)
 	(label "FAN2_PWM"
 		(at 116.84 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2315,7 +2319,6 @@
 	)
 	(label "SCL"
 		(at 68.58 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2326,7 +2329,6 @@
 	)
 	(label "GND"
 		(at 217.17 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2337,7 +2339,6 @@
 	)
 	(label "5V"
 		(at 218.44 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2348,7 +2349,6 @@
 	)
 	(label "FAN1_PWM"
 		(at 229.87 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2359,7 +2359,6 @@
 	)
 	(label "FAN1_PWM"
 		(at 116.84 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2370,7 +2369,6 @@
 	)
 	(label "FAN2_TACH"
 		(at 229.87 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2381,7 +2379,6 @@
 	)
 	(label "SDA"
 		(at 72.39 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2392,7 +2389,6 @@
 	)
 	(label "FAN2_TACH"
 		(at 116.84 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2403,7 +2399,6 @@
 	)
 	(label "GND"
 		(at 110.49 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2414,7 +2409,6 @@
 	)
 	(label "3V3"
 		(at 196.85 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2425,7 +2419,6 @@
 	)
 	(label "3V3"
 		(at 110.49 120.65 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2436,7 +2429,6 @@
 	)
 	(label "GND"
 		(at 217.17 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2447,7 +2439,6 @@
 	)
 	(label "3V3"
 		(at 72.39 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2458,7 +2449,6 @@
 	)
 	(label "FAN2_PWM"
 		(at 229.87 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2469,7 +2459,6 @@
 	)
 	(label "VIN"
 		(at 152.4 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2480,7 +2469,6 @@
 	)
 	(label "5V"
 		(at 217.17 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2491,7 +2479,6 @@
 	)
 	(label "FAN1_TACH"
 		(at 229.87 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2547,7 +2534,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 214.63 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2559,7 +2545,6 @@
 	(hierarchical_label "VIN"
 		(shape input)
 		(at 147.32 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2571,7 +2556,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 72.39 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2583,7 +2567,6 @@
 	(hierarchical_label "SDA"
 		(shape input)
 		(at 72.39 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2595,7 +2578,6 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 54.61 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2726,7 +2708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "100a5b3e-0629-4355-9ef2-29cf172fbbcb")
-		(property "Reference" "R7"
+		(property "Reference" "R27"
 			(at 229.235 40.64 0)
 			(effects
 				(font
@@ -3542,7 +3524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ac385d7-f436-46b1-a240-eb5a4be4d3b2")
-		(property "Reference" "R7"
+		(property "Reference" "R26"
 			(at 228.6 86.36 0)
 			(effects
 				(font
